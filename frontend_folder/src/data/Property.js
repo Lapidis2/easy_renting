@@ -2,14 +2,14 @@ const Properties=[
 	{
 		"id":1,
 		"image":"/house.jpg",
-		"status":"FOR RENT",
+		"status":"FOR Sell",
 		"price":"FRw1,000",
 		"description":"Spacious 3-Bedroom House for Rent in Kibagabaga, Kigali, Rwanda",
 		"bedrooms":3,
 		"bathrooms":2,
 		"area":"305 sqm",
 		"type":"Townhouse",
-		"posted":"7 months ago"
+		"timeAgo":"7 months ago"
 	
 	},
 	{
@@ -22,7 +22,7 @@ const Properties=[
 		"bathrooms":2,
 		"area":"305 sqm",
 		"type":"Townhouse",
-		"posted":"7 months ago"
+		"timeAgo":"7 months ago"
 	
 	},
 	{
@@ -35,20 +35,20 @@ const Properties=[
 		"bathrooms":2,
 		"area":"305 sqm",
 		"type":"Townhouse",
-		"posted":"7 months ago"
+		"timeAgo":"7 months ago"
 	
 	},
 	{
 		"id":4,
 		"image":"/house.jpg",
-		"status":"FOR RENT",
+		"status":"For Sell",
 		"price":"FRw1,000",
 		"description":"Spacious 3-Bedroom House for Rent in Kibagabaga, Kigali, Rwanda",
 		"bedrooms":3,
 		"bathrooms":2,
 		"area":"305 sqm",
 		"type":"Townhouse",
-		"posted":"7 months ago"
+		"timeAgo":"7 months ago"
 	
 	},
 	{
@@ -61,7 +61,7 @@ const Properties=[
 		"bathrooms":2,
 		"area":"305 sqm",
 		"type":"Townhouse",
-		"posted":"7 months ago"
+		"timeAgo":"7 months ago"
 	
 	},
 	{
@@ -73,8 +73,8 @@ const Properties=[
 		"bedrooms":3,
 		"bathrooms":2,
 		"area":"305 sqm",
-		"type":"Townhouse",
-		"posted":"7 months ago"
+		"type":"Appartment",
+		"timeAgo":"3 months ago"
 	}
 ]
 export default Properties;

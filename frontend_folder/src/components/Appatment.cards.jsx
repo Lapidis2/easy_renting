@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaBed, FaBath, FaHeart,FaShare } from 'react-icons/fa';
+import { FaBed, FaBath, FaHeart,FaShare ,FaEye} from 'react-icons/fa';
 import { MdCropSquare } from 'react-icons/md'; 
 import Properties from '../data/Property';
 
@@ -11,12 +11,15 @@ const ApartmentCards = () => {
 		  <div key={property.id} className="max-w-sm rounded-2xl overflow-hidden shadow-lg p-4 bg-white">
 			<div className="relative">
 			  <img className="w-full h-48 object-cover rounded" src={property.image} alt="Property" />
-			  <span className="absolute top-2 right-2 bg-black text-white px-2 py-1 text-xs rounded">
-				FOR RENT
+			  <span className='absolute inset-0 flex justify-center items-center '>
+				<span className=' bg-black bg-opacity-20 rounded-full p-1'><FaEye className="w-3 h-3 text-white cursor-pointer" /></span>
+			  </span>
+			  <span className="absolute top-2 right-2 bg-black text-white px-2 py-1 text-xs rounded ">
+				{property.status}
 			  </span>
 			  <span className="absolute bottom-2 right-2 flex items-center text-white bg-blue-500 px-2 py-1 text-xs rounded gap-2">
-				<FaHeart className="w-5 h-5" />
-				<FaShare className="w-5 h-5" />
+				<FaHeart className="w-5 h-5 cursor-pointer" />
+				<FaShare className="w-5 h-5 cursor-pointer" />
 			  </span>
 			</div>
 			<div className="p-4">
@@ -33,7 +36,7 @@ const ApartmentCards = () => {
 				  <MdCropSquare /> <span>{property.area}</span>
 				</div>
 			  </div>
-			  <button className="mt-4 w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600">
+			  <button className="mt-4 w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 cursor-pointer">
 				Details
 			  </button>
 			</div>
