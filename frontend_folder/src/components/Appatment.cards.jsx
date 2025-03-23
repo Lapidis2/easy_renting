@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Appatment.cards = () => {
+const Appatment = () => {
   return (
 	<div>
 	  apartment cards
@@ -8,4 +8,4 @@ const Appatment.cards = () => {
   )
 }
 
-export default Appatment.cards
+export default Appatment
