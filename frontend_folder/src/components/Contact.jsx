@@ -3,12 +3,11 @@ import React from 'react'
 const Contact = () => {
   return (
 	<div>
-	   <div className="flex justify-center items-center min-h-screen bg-gray-100 mt-12">
+	   <div className="flex justify-center items-center min-h-screen bg-gray-100">
       <div className="w-full max-w-sm bg-white rounded-2xl shadow-lg p-6">
         <h2 className="text-xl font-bold text-center text-gray-700 mb-6">
           Contact Us
         </h2>
-
         <form className="mt-4">
           {/* Name Field */}
           <div className="mb-2">

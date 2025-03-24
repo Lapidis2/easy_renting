@@ -41,7 +41,7 @@ export const NavBar = () => {
        
       </div>
 	   <div className='flex  items-center gap-4'>
-	   <div className="text-xl md:text-lg sm:text-sm font-bold text-white ml-4">
+	   <div className="text-xl md:text-lg sm:text-sm font-bold text-white ml-4 lg:mt-[-10px] mt-[-25px]">
           GREAT CONNECTION BUSINESS GROUP
 		  </div>
 
