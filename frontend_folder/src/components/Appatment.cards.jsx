@@ -3,7 +3,6 @@ import { FaBed, FaBath, FaHeart,FaShare ,FaEye} from 'react-icons/fa';
 import { MdCropSquare } from 'react-icons/md'; 
 import Properties from '../data/Property';
 
-
 const ApartmentCards = () => {
 	return (
 	  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
