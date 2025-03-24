@@ -31,7 +31,7 @@ export const NavBar = () => {
         {/* Dropdown Menu */}
         {dropdownOpen && (
           <div className="absolute top-14 right-0 bg-green-600 text-white shadow-md rounded p-2 w-40">
-            <a href="#" className="block px-4 py-2 hover:bg-green-800">Home</a>
+            <Link to="/" className="block px-4 py-2 hover:bg-green-800">Home</Link>
             <a href="#" className="block px-4 py-2 hover:bg-green-800">About Us</a>
             <a href="#" className="block px-4 py-2 hover:bg-green-800">Services</a>
             <Link to="/contact" className="block px-4 py-2 hover:bg-green-800">Contact</Link>

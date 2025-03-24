@@ -2,13 +2,13 @@ const Properties = [
 	{
 	  "id": "1",
 	  "title": "Spacious Unfurnished House for Rent in Kibagabaga",
-	  "price": "FRw3,000",
+	  "price": " 3,000",
 	  "status": "For Rent",
 	  "location": "Kibagabaga, Kigali, Rwanda",
-	  "owner": "SinhaJong",
-	  "contact": "+250790100815",
+	  "owner": "Pacific",
+	  "contact": "+2507xxxxxxxx",
 	  "description":
-		"CALL/WHATSAPP +250790100815. Kibagabaga unfurnished new big and nice house for rent in Kigali, Rwanda...",
+		"CALL/WHATSAPP +2507xxxxxxxx. Kibagabaga unfurnished new big and nice house for rent in Kigali, Rwanda...",
 	  "bedrooms": 3,
 	  "bathrooms": 3,
 	  "toilets": 6,
@@ -30,11 +30,11 @@ const Properties = [
 	{
 	  "id": "2",
 	  "title": "Fully Furnished 4-Bedroom House in Gacuriro",
-	  "price": "FRw2,500",
+	  "price": "2,500",
 	  "status": "For Rent",
 	  "location": "Gacuriro, Kigali, Rwanda",
 	  "owner": "Jean Real Estate",
-	  "contact": "+250788112233",
+	  "contact": "+2507xxxxxxxx",
 	  "description":
 		"A luxurious 4-bedroom house fully furnished with modern amenities in Gacuriro. Perfect for families or diplomats.",
 	  "bedrooms": 4,
@@ -49,11 +49,11 @@ const Properties = [
 	{
 	  "id": "3",
 	  "title": "Modern Apartment with City View in Nyarutarama",
-	  "price": "FRw1,800",
+	  "price": "1,800",
 	  "status": "For Rent",
 	  "location": "Nyarutarama, Kigali, Rwanda",
 	  "owner": "City Heights Ltd",
-	  "contact": "+250722334455",
+	  "contact": "+2507xxxxxxxx",
 	  "description":
 		"A stylish apartment with a balcony and breathtaking views of Kigali. Comes with a fitness center and underground parking.",
 	  "bedrooms": 2,
@@ -68,11 +68,11 @@ const Properties = [
 	{
 	  "id": "4",
 	  "title": "Luxury Villa with Private Pool in Rebero",
-	  "price": "FRw5,000",
+	  "price": "5,000",
 	  "status": "For Sale",
 	  "location": "Rebero, Kigali, Rwanda",
 	  "owner": "Prestige Homes",
-	  "contact": "+250799998877",
+	  "contact": "+2507xxxxxxxx",
 	  "description":
 		"An elegant 5-bedroom villa with a private swimming pool, large garden, and panoramic views of Kigali.",
 	  "bedrooms": 5,
@@ -93,11 +93,11 @@ const Properties = [
 	{
 	  "id": "5",
 	  "title": "Spacious 3-Bedroom House in Kibagabaga",
-	  "price": "FRw100,000",
+	  "price": "100,000",
 	  "status": "For Rent",
 	  "location": "Kibagabaga, Kigali, Rwanda",
 	  "owner": "Private",
-	  "contact": "+250788445566",
+	  "contact": "+2507xxxxxxxx",
 	  "description":
 		"A spacious 3-bedroom house located in the heart of Kibagabaga, perfect for family living.",
 	  "bedrooms": 3,
@@ -112,11 +112,11 @@ const Properties = [
 	{
 	  "id": "6",
 	  "title": "Modern Apartment in Kacyiru",
-	  "price": "FRw90,000",
+	  "price": "90,000",
 	  "status": "For Rent",
 	  "location": "Kacyiru, Kigali, Rwanda",
 	  "owner": "Elite Rentals",
-	  "contact": "+250788778899",
+	  "contact": "+2507xxxxxxxx",
 	  "description":
 		"A modern 2-bedroom apartment in a secure and serene neighborhood in Kacyiru.",
 	  "bedrooms": 2,
