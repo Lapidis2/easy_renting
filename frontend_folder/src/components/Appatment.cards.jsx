@@ -5,7 +5,7 @@ import Properties from '../data/Property';
 
 const ApartmentCards = () => {
 	return (
-	  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+	  <div className="flex flex-wrap gap-4 justify-center py-6">
 		{Properties.map((property) => (
 		  <div key={property.id} className="max-w-sm rounded-2xl overflow-hidden shadow-lg p-4 bg-white">
 			<div className="relative">
@@ -16,7 +16,7 @@ const ApartmentCards = () => {
 			  <span className="absolute top-2 right-2 bg-black text-white px-2 py-1 text-xs rounded ">
 				{property.status}
 			  </span>
-			  <span className="absolute bottom-2 right-2 flex items-center text-white bg-blue-500 px-2 py-1 text-xs rounded gap-2">
+			  <span className="absolute bottom-2 right-2 flex items-center text-blue-500  px-2 py-1 text-xs rounded gap-2">
 				<FaHeart className="w-5 h-5 cursor-pointer" />
 				<FaShare className="w-5 h-5 cursor-pointer" />
 			  </span>

@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
-
 import SearchBar from './SearchBar'
+import { Link } from 'react-router-dom'
 
 export const NavBar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   return (
-    <div className="w-full bg-green-500 fixed top-0 left-0 z-50">
+	<>
+    <div className="w-full bg-green-500 fixed h-48 top-0 left-0 z-50">
       {/* Top Bar */}
       <div className="bg-green-600 text-white flex justify-end p-2 text-sm">
         <div className="space-x-4 hidden md:flex">
@@ -82,6 +82,7 @@ export const NavBar = () => {
       </div>
 	  </div>
 	  </div>
-    
+	  <div className='pt-44'></div>
+	  </>
   )
 }
