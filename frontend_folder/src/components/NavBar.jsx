@@ -5,7 +5,7 @@ export const  NavBar = () => {
 	  return (
 		<div className=' p-4 bg-green-500 '>
 		<header>
-			<h1 className='text-3xl'>GEATE CONNECTION BUSINESS GROUP</h1>
+			<h1 className='text-3xl'>GREAT CONNECTION BUSINESS GROUP</h1>
 		</header>
 	<nav className=' flex justify-around bg-green-500 text-white'>
 		<div className='p-4 flex flex-col'>
