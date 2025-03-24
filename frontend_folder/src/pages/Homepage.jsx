@@ -1,15 +1,11 @@
 import React from 'react'
+import AppatmentCards from '../components/Appatment.cards'
 
 const Homepage = () => {
   return (
-	<div className='flex flex-col items-center justify-center '>
-		<span>Home page</span>
-		<span>Home page</span>
-		<span>Home page</span>
-		<span>Home page</span>
-		<span>Home page</span>
-		<span>Home page</span>
-	</div>
+	
+		<AppatmentCards />
+
   )
 }
 

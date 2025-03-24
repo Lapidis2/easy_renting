@@ -5,7 +5,8 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Login from './components/Login';
 import Register from './components/Register';
-
+import './App.css'
+import Homepage from './pages/Homepage'
 
 function App() {
 
@@ -24,6 +25,8 @@ function App() {
 
       </Routes>
      </Router>
+     <Homepage />
+	<Footer />
     </>
   )
 }
