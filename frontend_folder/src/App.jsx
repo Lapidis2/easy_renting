@@ -30,6 +30,7 @@ function App() {
             </Link>
           </div>
         } />
+
       </Routes>
       <Footer />
      </Router>
