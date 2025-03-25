@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
-
 import SearchBar from './SearchBar'
+import { Link } from 'react-router-dom'
 
 export const NavBar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   return (
-    <div className="w-full bg-green-500 fixed top-0 left-0 z-50">
+	<>
+    <div className="w-full bg-green-500 fixed h-48 top-0 left-0 z-50">
       {/* Top Bar */}
       <div className="bg-green-600 text-white flex justify-end p-2 text-sm">
         <div className="space-x-4 hidden md:flex">
@@ -31,7 +31,7 @@ export const NavBar = () => {
         {/* Dropdown Menu */}
         {dropdownOpen && (
           <div className="absolute top-14 right-0 bg-green-600 text-white shadow-md rounded p-2 w-40">
-            <a href="#" className="block px-4 py-2 hover:bg-green-800">Home</a>
+            <Link to="/" className="block px-4 py-2 hover:bg-green-800">Home</Link>
             <a href="#" className="block px-4 py-2 hover:bg-green-800">About Us</a>
             <a href="#" className="block px-4 py-2 hover:bg-green-800">Services</a>
             <Link to="/contact" className="block px-4 py-2 hover:bg-green-800">Contact</Link>
@@ -41,7 +41,7 @@ export const NavBar = () => {
        
       </div>
 	   <div className='flex  items-center gap-4'>
-	   <div className="text-xl md:text-lg sm:text-sm font-bold text-white ml-4">
+	   <div className="text-xl md:text-lg sm:text-sm font-bold text-white ml-4 lg:mt-[-10px] mt-[-25px]">
           GREAT CONNECTION BUSINESS GROUP
 		  </div>
 
@@ -82,6 +82,7 @@ export const NavBar = () => {
       </div>
 	  </div>
 	  </div>
-    
+	  <div className='pt-44'></div>
+	  </>
   )
 }
