@@ -19,7 +19,8 @@ const Login = () => {
               id="email"
               name="email"
               placeholder="Enter your Email"
-              className="mt-1 block w-full px-3 py-2 border rounded-md shadow-sm text-sm focus:ring-blue-500 focus:border-blue-500"
+              className="mt-1 block w-full px-3 py-2 border rounded-md
+               shadow-sm text-sm focus:ring-green-400 focus:border-green-400"
               required
             />
           </div>
@@ -52,8 +53,8 @@ const Login = () => {
 
           <button
             type="submit"
-            className="w-full py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg 
-            shadow-md hover:bg-blue-600 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+            className="w-full py-2 px-4 bg-green-500 text-white font-semibold rounded-lg 
+            shadow-md hover:bg-green-600 focus:ring-2 focus:ring-green-500 focus:ring-offset-2">
             Login
           </button>
         </form>

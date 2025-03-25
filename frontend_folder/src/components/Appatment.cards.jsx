@@ -20,7 +20,7 @@ const ApartmentCards = () => {
             <span className="absolute top-2 right-2 bg-black text-white px-2 py-1 text-xs rounded">
               {property.status}
             </span>
-            <span className="absolute bottom-2 right-2 flex items-center text-blue-500 px-2 py-1 text-xs rounded gap-2">
+            <span className="absolute bottom-2 right-2 flex items-center text-gray-500 px-2 py-1 text-xs rounded gap-2">
               <FaHeart className="w-5 h-5 cursor-pointer" />
               <FaShare className="w-5 h-5 cursor-pointer" />
             </span>
@@ -45,7 +45,7 @@ const ApartmentCards = () => {
 
             {/* Navigate to Property Detail Page */}
             <Link to={`/property/${property.id}`}>
-              <button className="mt-4 w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 cursor-pointer">
+              <button className="mt-4 w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-600 cursor-pointer">
                 View Details
               </button>
             </Link>
