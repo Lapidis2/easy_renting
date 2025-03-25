@@ -57,7 +57,7 @@ export const NavBar = () => {
 
     
         <div className="relative group" onClick={(e) => e.stopPropagation()}>
-          <button className="hover:text-green-800 flex items-center" onClick={(e) => toggleDropdown("rent", e)}>
+          <button className="hover:text-green-800 flex  items-center" onClick={(e) => toggleDropdown("rent", e)}>
             Rent <span className="ml-1">
             <img className='h-8' src={arrow} alt="" />
             </span>
