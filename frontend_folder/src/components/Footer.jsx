@@ -85,7 +85,7 @@ const Footer = () => {
           <FaYoutube className="text-xl border-green-700 cursor-pointer" />
         </div>
     
-	   <a href="https://w.me/250785934003">
+	   <a href="https://wa.me/+250783908965" target='_blank' >
         <div className="fixed bottom-5 right-5 bg-green-500 text-white p-3 rounded-full cursor-pointer shadow-lg">
           <BsWhatsapp className="text-2xl" />
         </div>
