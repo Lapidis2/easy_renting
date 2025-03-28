@@ -3,7 +3,7 @@ import background from "../../assets/background.jpg";
 
 const HeroSection = () => {
   return (
-    <div className="relative h-screen w-full mt-20">
+    <div className="relative h-auto py-6 w-full mt-20">
       {/* Background Image */}
       <img
         src={background}
